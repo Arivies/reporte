@@ -5,8 +5,8 @@
 \textclass report
 \use_default_options true
 \maintain_unincluded_children false
-\language english
-\language_package default
+\language spanish-mexico
+\language_package babel
 \inputencoding auto
 \fontencoding global
 \font_roman default
@@ -181,8 +181,36 @@ Mexicali, Baja California.
 
 \end_layout
 
-\begin_layout Title
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introducción
+\end_layout
+
+\begin_layout Standard
+El proyecto que ahora se presenta es desarrollado en el Instuto Tecnológico
+ de Mexicali, y se debe con el fin de apoyar a la asociacion de alzheimer
+ de baja california, para difundir mas información acerca de la enfermedad
+ de alzheimer y dar a conocer mas acerca de esta asociación que se encarga
+ de ayudar a personas que la padecen.
+ Así como dar a conocer las actividades que realizan mediante sus eventos
+ y noticias.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por ello el presente trabajo esta encaminando a desarrollar una aplicación
+ web en la cual cuenta con contenidos dinamicos
 \end_layout
 
 \end_body
