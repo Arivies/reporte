@@ -196,8 +196,11 @@ Introducción
 
 \begin_layout Standard
 El proyecto que ahora se presenta es desarrollado en el Instuto Tecnológico
- de Mexicali, y se debe con el fin de apoyar a la asociacion de alzheimer
- de baja california, para difundir mas información acerca de la enfermedad
+ de Mexicali, en donde el Cuerpo Académico Informatica Industrial (CAII)
+ se tienen inquietudes por desarrollar temas de investigación y vincularse
+ con asociaciones o empresas para trabajar en proyecto, por el cual este
+ proyecto se debe con el fin de apoyar a la asociación de alzheimer de baja
+ california, con el fin de difundir mas información acerca de la enfermedad
  de alzheimer y dar a conocer mas acerca de esta asociación que se encarga
  de ayudar a personas que la padecen.
  Así como dar a conocer las actividades que realizan mediante sus eventos
@@ -209,8 +212,28 @@ El proyecto que ahora se presenta es desarrollado en el Instuto Tecnológico
 \end_layout
 
 \begin_layout Standard
-Por ello el presente trabajo esta encaminando a desarrollar una aplicación
- web en la cual cuenta con contenidos dinamicos
+Por ello el presente trabajo está encaminando a desarrollar una aplicación
+ web en la cual los miembros de la asociación de alzheimer utilizarán la
+ aplicación en donde se gestionarán usuarios, un administrador tendrá permisos
+ para crear usuarios y asignarles algún permiso en específico, ya sea que
+ publique alguna noticia o evento a realizar.
+ Así como también notificar sobre algun evento próximo a solo grupos de
+ usuarios que administren el sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para que esta apliación pueda dar los resultados, es desarrollada utilizando
+ un Framework basado en el lenguaje PHP con el que esta aplicación cuenta
+ con contenidos dinámicos ofreciendo un mejor manejo de la aplicación, ya
+ que se utiliza una arquitectura de software llamada Modelo Vista-Controlador
+ (MVC) en la cual separa los datos y la lógica de la interfaz de usuario
+ y mediante un módulo encargado se gestionan las comunicaciones y los eventos
+ que se realizan en esta.
+ 
 \end_layout
 
 \end_body
