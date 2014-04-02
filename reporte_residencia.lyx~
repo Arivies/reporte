@@ -228,11 +228,82 @@ Por ello el presente trabajo está encaminando a desarrollar una aplicación
 \begin_layout Standard
 Para que esta apliación pueda dar los resultados, es desarrollada utilizando
  un Framework basado en el lenguaje PHP con el que esta aplicación cuenta
- con contenidos dinámicos ofreciendo un manejo de la aplicación ya que se
- utiliza una arquitectura de software llamada Modelo Vista-Controlador (MVC)
- en la cual separa los datos y la lógica de la interfaz de usuario y mediante
- un módulo encargado se gestionan las comunicaciones y los eventos que se
- realizan
+ con contenidos dinámicos ofreciendo un mejor manejo de la aplicación, ya
+ que se utiliza una arquitectura de software llamada Modelo Vista-Controlador
+ (MVC) en la cual separa los datos y la lógica de la interfaz de usuario
+ y mediante un módulo encargado se gestionan las comunicaciones y los eventos
+ que se realizan en esta.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Instituto Tecnológico de Mexicali
+\end_layout
+
+\begin_layout Standard
+Instituto Tecnológico de Mexicali, es una Institución de educación en áreas
+ tecnológicas a Nivel Superior, que imparte Educación Tecnológica bajo tres
+ principios: Calidad en la Educación, Eficiencia en su Administración y
+ Pertinencia en sus Egresados.
+\end_layout
+
+\begin_layout Itemize
+Visión: Ser un Instituto de vanguardia a nivel nacional con reconocimiento
+ internacional, formador de profesionistas íntegros y competitivos a nivel
+ global comprometidos con el progreso de la sociedad.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Misión: Ser un instrumento de desarrollo de su comunidad, formando profesionales
+ de excelencia en tecnología y mística de trabajo, capaces de responder
+ a los retos de la modernización con calidad y productividad.
+\begin_inset Newline newline
+\end_inset
+
+Sistema de Gestión de Calidad.
+\end_layout
+
+\begin_layout Standard
+El Instituto Tecnológico de Mexicali establece el compromiso de implementar
+ todos sus procesos, orientándolos hacia la satisfacción de sus estudiantes
+ sustentada en la Calidad del Proceso Educativo, para cumplir con sus requisitos
+, mediante la eficacia de un Sistema de Gestión de la Calidad y de mejora
+ continua, conforme a la norma ISO 9001:2008/NMX-CC-9001-IMNC-2008.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dentro del Instituto Tecnológico de Mexicali se encuentra el Cuerpo Académico
+ Informática Industrial, el cual esta formado por Profesores dedicados a
+ la investigación, estudiantes de posgrado y estudiantes de la carrera de
+ ingeniería en sistemas computacionales, en donde se tienen inquietudes
+ en diferentes áreas de investigacion como: Tiempo Real, Cómputo Ubicuo
+ y Aplicaciones Corporativas.
+ Ademas de realizar convenios con otras universidades en las cuales se realizan
+ estancias de investigación, proyectos con empresas o asociaciones como
+ es en este caso con la asociación de alzheimer de baja california.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Desarrollo del Proyecto
 \end_layout
 
 \end_body
