@@ -295,7 +295,7 @@ Dentro del Instituto Tecnológico de Mexicali se encuentra el Cuerpo Académico
  y Aplicaciones Corporativas.
  Ademas de realizar convenios con otras universidades en las cuales se realizan
  estancias de investigación, proyectos con empresas o asociaciones como
- es en este caso con la asociación de alzheimer de baja california.
+ es en este caso la asociación de alzheimer de baja california.
 \begin_inset Newpage newpage
 \end_inset
 
@@ -304,6 +304,27 @@ Dentro del Instituto Tecnológico de Mexicali se encuentra el Cuerpo Académico
 
 \begin_layout Chapter
 Desarrollo del Proyecto
+\end_layout
+
+\begin_layout Standard
+El proyecto que se está desarrollando en base a que la asociación no cuenta
+ con una aplicación web en la cual puedan difundir sus actividades.
+\end_layout
+
+\begin_layout Standard
+por lo tanto, su desarrollo se dividió en para ir cubriendo sus necesidades.
+\end_layout
+
+\begin_layout Section
+Diseño de la aplicación
+\end_layout
+
+\begin_layout Standard
+Miembros de la asociación de alzheimer dieron los requerimientos necesarios
+ para su aplicación, ya teniendo sus requerimientos se procede a diseñar
+ la base de datos con la cual se trabajará la aplicación.
+ Teniendo el diseño de la base de datos, se procede a crearla en MySql el
+ cual es un gestor de bases de datos 
 \end_layout
 
 \end_body
