@@ -309,10 +309,7 @@ Desarrollo del Proyecto
 \begin_layout Standard
 El proyecto que se está desarrollando en base a que la asociación no cuenta
  con una aplicación web en la cual puedan difundir sus actividades.
-\end_layout
-
-\begin_layout Standard
-por lo tanto, su desarrollo se dividió en para ir cubriendo sus necesidades.
+ Por lo tanto, su desarrollo se dividió en para ir cubriendo sus necesidades.
 \end_layout
 
 \begin_layout Section
@@ -325,11 +322,19 @@ Miembros de la asociación de alzheimer dieron los requerimientos necesarios
  de datos con la cual se trabajará en la aplicación.
  Teniendo diseñada la base de datos, se procede a crearla en un gestor de
  bases de datos el cual es MySql con el que se está trabajando.
- Por otro lado la aplicación esta desarrollada en lenguaje PHP y por lo
- que se utilizó un Framework basado en el mismo lenguaje llamado Symfony2,
- para el estilo se utiliza un framework de CSS llamado Foundation5 y se
- utiliza un ORM (Object-Relational mapping) llamado Doctrine para manejar
- la base de datos mediante la aplicación.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado la aplicación esta desarrollada en lenguaje PHP y por lo que
+ se utilizó un Framework basado en el mismo lenguaje llamado Symfony2, para
+ el estilo se utiliza un framework de CSS llamado Foundation5 y se utiliza
+ un ORM (Object-Relational mapping) llamado Doctrine para manejar la base
+ de datos mediante la aplicación.
  
 \end_layout
 
@@ -344,7 +349,17 @@ Es un proyecto PHP de software libre que permite crear aplicaciones y sitios
  Modelo Vista Controlador.
  Para empezar, separa la lógica de negocio, la lógica de servidor y la presentac
 ión de la aplicación web.
- Proporciona varias herramientas y clases encaminadas a reducir el tiempo
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Proporciona varias herramientas y clases encaminadas a reducir el tiempo
  de desarrollo de una aplicación web compleja.
  Además, automatiza las tareas más comunes, permitiendo al desarrollador
  dedicarse por completo a los aspectos específicos de cada aplicación.
@@ -366,6 +381,136 @@ Es el mas avanzado framework responsivo para desarrollar front-end en el
 
 \begin_layout Section
 Doctrine
+\end_layout
+
+\begin_layout Standard
+Es un mapeador de objetos-relacional (ORM) escrito en PHP que proporciona
+ una capa de persistencia para objetos PHP.
+ Es una capa de abstracción que se sitúa justo encima de un sistema de gestión
+ de base de datos.
+ Una característica de Doctrine es el bajo nivel de configuración que necesita
+ para empezar un proyecto.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Doctrine puede generar clases a partir de una base de datos existente y
+ después el programador puede especificar relaciones y añadir funcionalidad
+ extra a las clases autogeneradas.
+ No es necesario generar o mantener complejos esquemas XML de base de datos
+ como en otros frameworks.
+\end_layout
+
+\begin_layout Section
+Objetivos
+\end_layout
+
+\begin_layout Standard
+En los objetivos que se tienen planteados se esncuentran:
+\end_layout
+
+\begin_layout Itemize
+Manejo de usuarios y privilegios
+\end_layout
+
+\begin_layout Itemize
+Publicación de noticias y eventos 
+\end_layout
+
+\begin_layout Itemize
+Grupos de usuarios
+\end_layout
+
+\begin_layout Itemize
+Cuentas de correo institucionales 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Estos objetivos se irán implementando durante el desarrollo de la aplicación,
+ el primero de los objetivo a realizar es el manejo de usuarios, para esto
+ se tendrá un usuario administrador el cual podrá crear otros usuarios y
+ asignarle algunos permisos con los cuales podrá administrar el sistema,
+ el formulario para la creación de usuarios pide como requisitos:
+\end_layout
+
+\begin_layout Itemize
+usuario
+\end_layout
+
+\begin_layout Itemize
+nombres 
+\end_layout
+
+\begin_layout Itemize
+apellidos paterno y materno
+\end_layout
+
+\begin_layout Itemize
+correo electronico 
+\end_layout
+
+\begin_layout Itemize
+contacto del usuario
+\end_layout
+
+\begin_layout Itemize
+foto
+\end_layout
+
+\begin_layout Itemize
+el grupo al que va a pertenecer el usuario 
+\end_layout
+
+\begin_layout Itemize
+el tipo de permisos tendrá
+\end_layout
+
+\begin_layout Standard
+Cuando el usuario ya se encuentre registrado en la base de datos, segun
+ los permisos que tenga podrá publicar noticias o eventos según sea el caso.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El primer problema que se ha presentado se encuentra al cargar la fotografía
+ del usuario desde la aplicación y registrarla en la base de datos, ya que
+ se tiene que definir un tamaño de la foto, desde la computadora del usuario
+ se cargue al servidor y lo que se registre en la base de datos sea la ruta
+ en donde se encuentra para después, mostrarla junto a los demás datos del
+ usuario.
+ Por otro lado para la administración de los usuarios se esta investigando
+ si es conveniente usar un Bundle llamado FOSUserBundle (Friends Of Symfony)
+ que esta dedicado a la administración de usuarios.
+\end_layout
+
+\begin_layout Chapter
+Experiencia Adquirida
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Aportaciones de la Empresa
 \end_layout
 
 \end_body

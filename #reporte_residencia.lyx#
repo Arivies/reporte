@@ -328,8 +328,8 @@ Miembros de la asociación de alzheimer dieron los requerimientos necesarios
  Por otro lado la aplicación esta desarrollada en lenguaje PHP y por lo
  que se utilizó un Framework basado en el mismo lenguaje llamado Symfony2,
  para el estilo se utiliza un framework de CSS llamado Foundation5 y se
- utiliza un ORM (Object-Relational mapping) para manejar la base de datos
- mediante la aplicación.
+ utiliza un ORM (Object-Relational mapping) llamado Doctrine para manejar
+ la base de datos mediante la aplicación.
  
 \end_layout
 
@@ -360,7 +360,54 @@ Foundation5
 Es el mas avanzado framework responsivo para desarrollar front-end en el
  mundo, en el se pueden crear prototipos rapidamente y construir sitios
  o aplicaciones que trabajen sobre algún dispositivo, ya que incluye contruccion
- de plantillas (por ejemplo cuadriculas responsivas),elementos y otra
+ de plantillas (por ejemplo cuadriculas responsivas),elementos y buenas
+ practicas.
+\end_layout
+
+\begin_layout Section
+Doctrine
+\end_layout
+
+\begin_layout Standard
+Es un mapeador de objetos-relacional (ORM) escrito en PHP que proporciona
+ una capa de persistencia para objetos PHP.
+ Es una capa de abstracción que se sitúa justo encima de un sistema de gestión
+ de base de datos.
+ Una característica de Doctrine es el bajo nivel de configuración que necesita
+ para empezar un proyecto.
+ Doctrine puede generar clases a partir de una base de datos existente y
+ después el programador puede especificar relaciones y añadir funcionalidad
+ extra a las clases autogeneradas.
+ No es necesario generar o mantener complejos esquemas XML de base de datos
+ como en otros frameworks.
+\end_layout
+
+\begin_layout Section
+Objetivos
+\end_layout
+
+\begin_layout Standard
+En los objetivos que se tienen planteados se esncuentran:
+\end_layout
+
+\begin_layout Itemize
+Manejo de usuarios y privilegios
+\end_layout
+
+\begin_layout Itemize
+Publicación de noticias y eventos 
+\end_layout
+
+\begin_layout Itemize
+Grupos de usuarios
+\end_layout
+
+\begin_layout Itemize
+Cuentas de correo institucionales 
+\end_layout
+
+\begin_layout Standard
+Estos objetivos se iran 
 \end_layout
 
 \end_body
