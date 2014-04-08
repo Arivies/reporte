@@ -196,8 +196,11 @@ Introducción
 
 \begin_layout Standard
 El proyecto que ahora se presenta es desarrollado en el Instuto Tecnológico
- de Mexicali, y se debe con el fin de apoyar a la asociacion de alzheimer
- de baja california, para difundir mas información acerca de la enfermedad
+ de Mexicali, en donde el Cuerpo Académico Informatica Industrial (CAII)
+ se tienen inquietudes por desarrollar temas de investigación y vincularse
+ con asociaciones o empresas para trabajar en proyecto, por el cual este
+ proyecto se debe con el fin de apoyar a la asociación de alzheimer de baja
+ california, con el fin de difundir mas información acerca de la enfermedad
  de alzheimer y dar a conocer mas acerca de esta asociación que se encarga
  de ayudar a personas que la padecen.
  Así como dar a conocer las actividades que realizan mediante sus eventos
@@ -209,8 +212,155 @@ El proyecto que ahora se presenta es desarrollado en el Instuto Tecnológico
 \end_layout
 
 \begin_layout Standard
-Por ello el presente trabajo esta encaminando a desarrollar una aplicación
- web en la cual cuenta con contenidos dinamicos
+Por ello el presente trabajo está encaminando a desarrollar una aplicación
+ web en la cual los miembros de la asociación de alzheimer utilizarán la
+ aplicación en donde se gestionarán usuarios, un administrador tendrá permisos
+ para crear usuarios y asignarles algún permiso en específico, ya sea que
+ publique alguna noticia o evento a realizar.
+ Así como también notificar sobre algun evento próximo a solo grupos de
+ usuarios que administren el sistema.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para que esta apliación pueda dar los resultados, es desarrollada utilizando
+ un Framework basado en el lenguaje PHP con el que esta aplicación cuenta
+ con contenidos dinámicos ofreciendo un mejor manejo de la aplicación, ya
+ que se utiliza una arquitectura de software llamada Modelo Vista-Controlador
+ (MVC) en la cual separa los datos y la lógica de la interfaz de usuario
+ y mediante un módulo encargado se gestionan las comunicaciones y los eventos
+ que se realizan en esta.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Instituto Tecnológico de Mexicali
+\end_layout
+
+\begin_layout Standard
+Instituto Tecnológico de Mexicali, es una Institución de educación en áreas
+ tecnológicas a Nivel Superior, que imparte Educación Tecnológica bajo tres
+ principios: Calidad en la Educación, Eficiencia en su Administración y
+ Pertinencia en sus Egresados.
+\end_layout
+
+\begin_layout Itemize
+Visión: Ser un Instituto de vanguardia a nivel nacional con reconocimiento
+ internacional, formador de profesionistas íntegros y competitivos a nivel
+ global comprometidos con el progreso de la sociedad.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Misión: Ser un instrumento de desarrollo de su comunidad, formando profesionales
+ de excelencia en tecnología y mística de trabajo, capaces de responder
+ a los retos de la modernización con calidad y productividad.
+\begin_inset Newline newline
+\end_inset
+
+Sistema de Gestión de Calidad.
+\end_layout
+
+\begin_layout Standard
+El Instituto Tecnológico de Mexicali establece el compromiso de implementar
+ todos sus procesos, orientándolos hacia la satisfacción de sus estudiantes
+ sustentada en la Calidad del Proceso Educativo, para cumplir con sus requisitos
+, mediante la eficacia de un Sistema de Gestión de la Calidad y de mejora
+ continua, conforme a la norma ISO 9001:2008/NMX-CC-9001-IMNC-2008.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dentro del Instituto Tecnológico de Mexicali se encuentra el Cuerpo Académico
+ Informática Industrial, el cual esta formado por Profesores dedicados a
+ la investigación, estudiantes de posgrado y estudiantes de la carrera de
+ ingeniería en sistemas computacionales, en donde se tienen inquietudes
+ en diferentes áreas de investigacion como: Tiempo Real, Cómputo Ubicuo
+ y Aplicaciones Corporativas.
+ Ademas de realizar convenios con otras universidades en las cuales se realizan
+ estancias de investigación, proyectos con empresas o asociaciones como
+ es en este caso la asociación de alzheimer de baja california.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Desarrollo del Proyecto
+\end_layout
+
+\begin_layout Standard
+El proyecto que se está desarrollando en base a que la asociación no cuenta
+ con una aplicación web en la cual puedan difundir sus actividades.
+\end_layout
+
+\begin_layout Standard
+por lo tanto, su desarrollo se dividió en para ir cubriendo sus necesidades.
+\end_layout
+
+\begin_layout Section
+Diseño de la aplicación
+\end_layout
+
+\begin_layout Standard
+Miembros de la asociación de alzheimer dieron los requerimientos necesarios
+ para su aplicación, ya con los requerimientos se procede a diseñar la base
+ de datos con la cual se trabajará en la aplicación.
+ Teniendo diseñada la base de datos, se procede a crearla en un gestor de
+ bases de datos el cual es MySql con el que se está trabajando.
+ Por otro lado la aplicación esta desarrollada en lenguaje PHP y por lo
+ que se utilizó un Framework basado en el mismo lenguaje llamado Symfony2,
+ para el estilo se utiliza un framework de CSS llamado Foundation5 y se
+ utiliza un ORM (Object-Relational mapping) para manejar la base de datos
+ mediante la aplicación.
+ 
+\end_layout
+
+\begin_layout Section
+Symfony2
+\end_layout
+
+\begin_layout Standard
+Es un proyecto PHP de software libre que permite crear aplicaciones y sitios
+ web rápidos y seguros de forma profesional, es un completo framework diseñado
+ para optimizar el desarrollo de las aplicaciones web basado en el patrón
+ Modelo Vista Controlador.
+ Para empezar, separa la lógica de negocio, la lógica de servidor y la presentac
+ión de la aplicación web.
+ Proporciona varias herramientas y clases encaminadas a reducir el tiempo
+ de desarrollo de una aplicación web compleja.
+ Además, automatiza las tareas más comunes, permitiendo al desarrollador
+ dedicarse por completo a los aspectos específicos de cada aplicación.
+ El resultado de todas estas ventajas es que no se debe reinventar la rueda
+ cada vez que se crea una nueva aplicación web.
+\end_layout
+
+\begin_layout Section
+Foundation5
+\end_layout
+
+\begin_layout Standard
+Es el mas avanzado framework responsivo para desarrollar front-end en el
+ mundo, en el se pueden crear prototipos rapidamente y construir sitios
+ o aplicaciones que trabajen sobre algún dispositivo, ya que incluye contruccion
+ de plantillas (por ejemplo cuadriculas responsivas),elementos y otra
 \end_layout
 
 \end_body
