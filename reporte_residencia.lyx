@@ -331,10 +331,12 @@ Miembros de la asociación de alzheimer dieron los requerimientos necesarios
 
 \begin_layout Standard
 Por otro lado la aplicación esta desarrollada en lenguaje PHP y por lo que
- se utilizó un Framework basado en el mismo lenguaje llamado Symfony2, para
- el estilo se utiliza un framework de CSS llamado Foundation5 y se utiliza
- un ORM (Object-Relational mapping) llamado Doctrine para manejar la base
- de datos mediante la aplicación.
+ se utilizó Symfony2 el cual es un Framework basado en dicho lenguaje, para
+ describir el aspecto de la pagina se utiliza un framework en donde provee
+ de codigo CSS con una sencilla personalización llamado Foundation5, por
+ otra parte se utiliza un ORM (Object-Relational mapping) llamado Doctrine
+ con el cual se utiliza en la base de datos de la aplicación y un motor
+ de plantillas para PHP llamado Twig.
  
 \end_layout
 
@@ -406,6 +408,47 @@ Doctrine puede generar clases a partir de una base de datos existente y
 \end_layout
 
 \begin_layout Section
+Twig
+\end_layout
+
+\begin_layout Standard
+Twig es un motor de plantillas para el lenguaje de programación PHP.
+ Su sintaxis se origina en plantillas Jinja y Django.
+ Se trata de un proyecto de código abierto.
+ El framework de PHP Symfony2 viene con un soporte integrado para twig como
+ su motor de plantilla por defecto.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Caracteristicas:
+\end_layout
+
+\begin_layout Itemize
+Rápido: Twig compila las plantillas hasta código PHP regular optimizado.
+ El costo general en comparación con código PHP regular se ha reducido al
+ mínimo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Seguro: Twig tiene un modo de recinto de seguridad para evaluar el código
+ de plantilla que no es confiable.
+ Esto te permite utilizar Twig como un lenguaje de plantillas para aplicaciones
+ donde los usuarios pueden modificar el diseño de la plantilla.
+ 
+\end_layout
+
+\begin_layout Itemize
+Flexible: Twig es alimentado por flexibles analizadores léxico y sintáctico.
+ Esto permite al desarrollador definir sus propias etiquetas y filtros personali
+zados, y crear su propio DSL.
+\end_layout
+
+\begin_layout Section
 Objetivos
 \end_layout
 
@@ -438,15 +481,11 @@ Cuentas de correo institucionales
 \end_layout
 
 \begin_layout Standard
-Estos objetivos se irán implementando durante el desarrollo de la aplicación,
- el primero de los objetivo a realizar es el manejo de usuarios, para esto
+Estos objetivos se implementan durante el desarrollo de la aplicación, el
+ primero de los objetivo a realizar es el manejo de usuarios, para esto
  se tendrá un usuario administrador el cual podrá crear otros usuarios y
- asignarle algunos permisos con los cuales podrá administrar el sistema,
- el formulario para la creación de usuarios pide como requisitos:
-\end_layout
-
-\begin_layout Itemize
-usuario
+ asignarle un rol con el cual podrá accesar a algunas areas del sistema,
+ el formulario para la creación de usuarios solicita lo siguiente:
 \end_layout
 
 \begin_layout Itemize
@@ -478,8 +517,9 @@ el tipo de permisos tendrá
 \end_layout
 
 \begin_layout Standard
-Cuando el usuario ya se encuentre registrado en la base de datos, segun
- los permisos que tenga podrá publicar noticias o eventos según sea el caso.
+Cuando el usuario se encuentre registrado en la base de datos, segun el
+ rol que se le haya asignado podrá publicar noticias o eventos según sea
+ el caso.
 \begin_inset Newline newline
 \end_inset
 
@@ -487,12 +527,18 @@ Cuando el usuario ya se encuentre registrado en la base de datos, segun
 \end_layout
 
 \begin_layout Standard
-El primer problema que se ha presentado se encuentra al cargar la fotografía
- del usuario desde la aplicación y registrarla en la base de datos, ya que
- se tiene que definir un tamaño de la foto, desde la computadora del usuario
- se cargue al servidor y lo que se registre en la base de datos sea la ruta
- en donde se encuentra para después, mostrarla junto a los demás datos del
- usuario.
+Posteriormente un usuario registrado, el cual tenga acceso a crear eventos
+ y noticias para publicar un evento se dirige a la vista en donde agregara
+ la siguiente informació:
+\end_layout
+
+\begin_layout Standard
+El primer problema que se ha presentado consiste en cargar imagenes desde
+ la aplicación, la cual se debe registrar en la base de datos, ya que se
+ debe definir un tamaño de la imagen y desde el equipo del usuario se cargue
+ la imagen a un directorio situado en el servidor, por lo que se guarda
+ en la base de datos es la ruta en donde se encuentra la imagen, de esta
+ manera la imagen se muestra junto a la informacion que sea necesaria mostrar.
  Por otro lado para la administración de los usuarios se esta investigando
  si es conveniente usar un Bundle llamado FOSUserBundle (Friends Of Symfony)
  que esta dedicado a la administración de usuarios.
