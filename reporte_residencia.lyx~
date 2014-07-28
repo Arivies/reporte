@@ -529,7 +529,7 @@ Cuando el usuario se encuentre registrado en la base de datos, segun el
 \begin_layout Standard
 Posteriormente un usuario registrado, el cual tenga acceso a crear eventos
  y noticias para publicar un evento se dirige a la vista en donde agregara
- la siguiente informació
+ la siguiente informació:
 \end_layout
 
 \begin_layout Standard
